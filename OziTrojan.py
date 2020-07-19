@@ -1,12 +1,12 @@
 #!/usr/bin/env python2.7
 #
-#   _   _   ___  _____  _   _____________ _____ _ _     ___   _   _ 
-#  | | | | / _ \/  __ \| | / /_   _| ___ \  _  | | |  / _ \ | \ | |
-#  | |_| |/ /_\ \ /  \/| |/ /  | | | |_/ / | | | | | / /_\ \|  \| |
-#  |  _  ||  _  | |    |    \  | | |    /| | | | | | |  _  || . ` |
-#  | | | || | | | \__/\| |\  \ | | | |\ \\ \_/ / | | | | | || |\  |
-#  \_| |_/\_| |_/\____/\_| \_/ \_/ \_| \_|\___/ / /  \_| |_/\_| \_/
-#                                         ~ Tools For Hacking by Mr.SecreTOzi
+#   _   _   ___  _____  _   _____________ _____ _   _ _____  ___   _   _ 
+#  | | | | / _ \/  __ \| | / /_   _| ___ \  _  | \ | |_   _|/ _ \ | \ | |
+#  | |_| |/ /_\ \ /  \/| |/ /  | | | |_/ / | | |  \| | | | / /_\ \|  \| |
+#  |  _  ||  _  | |    |    \  | | |    /| | | | . ` | | | |  _  || . ` |
+#  | | | || | | | \__/\| |\  \ | | | |\ \\ \_/ / |\  |_| |_| | | || |\  |
+#  \_| |_/\_| |_/\____/\_| \_/ \_/ \_| \_|\___/\_| \_/\___/\_| |_/\_| \_/
+#                                         ~ Tools For Hacking by Mr. SAGE
 
 import sys
 import argparse
@@ -42,7 +42,7 @@ os.system('clear')
 def menu():
     print ("""
 MIT License
-Copyright (c) 2018 HACKTROJAN
+Copyright (c) 2018 HACKTRONIAN
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
@@ -74,33 +74,28 @@ yes = set(['yes', 'y', 'ye', 'Y'])
 no = set(['no', 'n'])
 
 
-
-
-
-
 def logo():
     print """
-                           - Tarafından Desteklenmektedir!
- ____________  ____________   (__)
-|            | |___       /     
-|            |    /      /    |  |           
-|            |   /      /     |  |                           
-|            |  /      /___   |  |                  
-|____________| /___________|  |  |                                                                                   
-
+                           - Powered by
+ ___  ___       _____  ___  _____  _____ 
+|  \/  |      /  ___|/ _ \|  __ \|  ___|
+| .  . |_ __  \ `--./ /_\ \ |  \/| |__  
+| |\/| | '__|  `--. \  _  | | __ |  __| 
+| |  | | |_   /\__/ / | | | |_\ \| |___ 
+\_|  |_/_(_)  \____/\_| |_/\____/\____/ 
+"""
 
 
 hacktronianlogo = """\033[0m
-    _   _   ___  _____  _   _____________ _____ _ _     ___   _   _ 
-  | | | | / _ \/  __ \| | / /_   _| ___ \  _  | | |  / _ \ | \ | |
-  | |_| |/ /_\ \ /  \/| |/ /  | | | |_/ / | | | | | / /_\ \|  \| |
-  |  _  ||  _  | |    |    \  | | |    /| | | | | | |  _  || . ` |
-  | | | || | | | \__/\| |\  \ | | | |\ \\ \_/ / | | | | | || |\  |
-  \_| |_/\_| |_/\____/\_| \_/ \_/ \_| \_|\___/ / /  \_| |_/\_| \_/
+  _   _    _    ____ _  _______ ____   ___  _   _ ___    _    _   _ 
+ | | | |  / \  / ___| |/ /_   _|  _ \ / _ \| \ | |_ _|  / \  | \ | |
+ | |_| | / _ \| |   | ' /  | | | |_) | | | |  \| || |  / _ \ |  \| |
+ |  _  |/ ___ \ |___| . \  | | |  _ <| |_| | |\  || | / ___ \| |\  |
+ |_| |_/_/   \_\____|_|\_\ |_| |_| \_\_ __/|_| \_|___/_/   \_\_| \_|
  \033[91m"""
 def menu():
     print (hacktronianlogo + """\033[1m
- [!] This Tool Must Run As ROOT [!] https://linktr.ee/SecreTOzi
+ [!] This Tool Must Run As ROOT [!] https://linktr.ee/thehackingsage
 \033[0m
    {1}--Information Gathering
    {2}--Password Attacks
@@ -113,7 +108,7 @@ def menu():
    {0}--Install The HACKTRONIAN
    {99}-Exit
  """)
-    choice = raw_input("hacktrojan~# ")
+    choice = raw_input("hacktronian~# ")
     os.system('clear')
     if choice == "1":
         info()
@@ -145,9 +140,9 @@ def updatehacktronian():
     print ("This Tool is Only Available for Linux and Similar Systems. ")
     choiceupdate = raw_input("Continue Y / N: ")
     if choiceupdate in yes:
-        os.system("git clone https://github.com/SecreTOzi/Ozi-Trojan")
-        os.system("cd hacktrojan && sudo bash ./update.sh")
-        os.system("hacktrojan")
+        os.system("git clone https://github.com/thehackingsage/hacktronian.git")
+        os.system("cd hacktronian && sudo bash ./update.sh")
+        os.system("hacktronian")
 
 
 def doork():
@@ -168,7 +163,7 @@ def postexp():
     print("   {2}--POET")
     print("   {3}--Phishing Framework \n")
     print("   {99}-Return to main menu \n\n ")
-    choice11 = raw_input("hacktrojan~# ")
+    choice11 = raw_input("hacktronian~# ")
     os.system('clear')
     if choice11 == "1":
         sitechecker()
